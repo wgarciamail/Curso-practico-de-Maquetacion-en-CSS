@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
 body {
+    font-family: 'Roboto mono', monospace;
     margin: 0px;
     padding: 0px;
     /*Esto sirve para crear un layout sin scroll*/
@@ -95,4 +98,15 @@ nav .profile-link a {
     letter-spacing: 10px;
     text-align: center;
     color: white;
+}
+
+.home-bottom {
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    display: grid;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
 }
