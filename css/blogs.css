@@ -67,10 +67,37 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
-.post-main {
+.blogs-main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(240, 232, 232);
-    align-items: center;
-    justify-content: space-between;
+
+}
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+.blogs-main-news{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+  
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+    margin-bottom: 30px;
+}
+.blogs-bottom{
+
+}
+.blogs-post-container {
+
+}
+.post-container {
+
 }
