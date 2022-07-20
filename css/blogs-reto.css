@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto mono', monospace;
+    margin: 0px;
+    padding: 0px;
+  }
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-containers {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-containers .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-cotainer {
+    margin-left: 50px;
+}
+
+nav .nav-logo-cotainer img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+.post-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(240, 232, 232);
+    align-items: center;
+}
+.post-main div {
+    margin: 0 200px;
+}
+.post-main-subtitle {
+font-size: 1.5rem;
+font-weight: bold;
+}
+.post-main-image {
+    width: 100%;
+    height: 100%;
+}
+.post-main-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+.post-main-bottom {
+    border: 1px solid #47cfac;
+    width: 100px;
+    height: 50px;  
+    display: grid;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
