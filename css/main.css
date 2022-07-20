@@ -109,4 +109,10 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 18px;
     text-align: center;
+
+}
+
+.home-bottom:hover {
+    background-color: #47cfac;
+    transform: scale(1.1);
 }
