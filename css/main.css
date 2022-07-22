@@ -141,7 +141,14 @@ nav .profile-link a {
     margin-bottom: 35px;
 }
 .blogs-bottom{
-
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.blogs-bottom:hover {
+    background-color: #47cfac;
+    color: white;
+    font-weight: 700;
 }
 .blogs-post-container {
     padding: 0 50px;
