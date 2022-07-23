@@ -20,6 +20,11 @@ a {
     left: 0;
     right: 0;
 }
+/*Con esto le digo que el contenido no supere los 980px en pantallas grandes.*/
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
 
 header {
     width: 100%;
