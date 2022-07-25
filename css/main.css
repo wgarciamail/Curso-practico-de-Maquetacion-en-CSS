@@ -232,3 +232,21 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+/*Perfil*/
+.perfil-main-container {
+    background-color: #e6e9ed;
+    padding: 40px 50px;
+}
+.perfil-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.perfil-main-img-container {
+    grid-column: 1;
+}
+.perfil-main-img-container img {
+    width: 85%;
+}
+.perfil-main-info-container {
+    grid-column: 2;
+}
