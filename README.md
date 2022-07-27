@@ -4,6 +4,7 @@
 - Blog estático donde se aplican diferentes estratégias de maquetación como Flexbox CSS Grid, diseño resposivo entre otros.
 
 <h3 style="text-align: center";>Capturas de panatallas</h3>
+
 #### Home
 ![Home](assets/img/2022-07-27_15h41_49.png)
 
